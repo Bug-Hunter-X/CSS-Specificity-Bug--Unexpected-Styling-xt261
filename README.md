@@ -1,0 +1,1 @@
+This repository demonstrates a common CSS issue related to specificity conflicts. The `bug.css` file shows the code that produces unexpected styling.  The `bugSolution.css` file offers a solution by adjusting selectors or using the `!important` flag (though it's generally recommended to avoid `!important`).  Understanding CSS specificity is crucial for effective web development.
