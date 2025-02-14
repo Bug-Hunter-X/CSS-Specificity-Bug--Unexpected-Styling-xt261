@@ -1,0 +1,19 @@
+The issue lies in the specificity of the CSS selectors. The solution is to either increase the specificity of the intended selector or adjust the selectors to have clearer precedence.  Here is the corrected code.   /* bugSolution.css */
+
+#container p {
+  color: blue; /* More specific selector */
+}
+
+p {
+  color: red; /* Less specific selector */
+}
+
+/* Or you could restructure your selectors entirely */
+
+.special-paragraph {
+    color: blue;
+}
+
+.another-paragraph {
+    color: red;
+}
